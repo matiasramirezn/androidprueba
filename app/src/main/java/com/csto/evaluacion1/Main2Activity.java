@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.Toast;
-
+//algo
 public class Main2Activity extends AppCompatActivity {
 
     EditText nombre;
