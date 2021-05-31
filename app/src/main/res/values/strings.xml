@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">evaluacion1</string>
+    <string name="boton_registro">REGISTRO</string>
+    <string name="boton_acceder">ACCEDER</string>
+    <string name="boton_Registrado">REGISTRAR</string>
+    <string-array name="Regiones">
+        <item>---</item>
+        <item>MAULE</item>
+        <item>BIO BIO</item>
+        <item>METROPOLITANA</item>
+    </string-array>
+</resources>
