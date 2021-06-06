@@ -55,4 +55,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void vermapa(View v){
+        Intent I = new Intent(getApplicationContext(),MainActivity2.class);
+        startActivity(I);
+    }
+
 }
