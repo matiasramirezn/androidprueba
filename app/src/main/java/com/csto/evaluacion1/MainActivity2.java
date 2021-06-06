@@ -47,7 +47,7 @@ public class MainActivity2 extends AppCompatActivity implements OnMapReadyCallba
             LatLng TALCA = new LatLng(-35.427570, -71.653859);
             mMap.addMarker(new MarkerOptions().position(TALCA).title("TALCA"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(TALCA));
-            mMap.moveCamera(CameraUpdateFactory.zoomTo(14));
+            mMap.moveCamera(CameraUpdateFactory.zoomTo(10));
 
         }else {
             if (s.getSelectedItemPosition()==2) {
@@ -55,7 +55,7 @@ public class MainActivity2 extends AppCompatActivity implements OnMapReadyCallba
                 LatLng PICHILEMU = new LatLng(-34.391038, -72.013569);
                 mMap.addMarker(new MarkerOptions().position(PICHILEMU).title("PICHILEMU"));
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(PICHILEMU));
-                mMap.moveCamera(CameraUpdateFactory.zoomTo(14));
+                mMap.moveCamera(CameraUpdateFactory.zoomTo(10));
 
             }else {
                 if (s.getSelectedItemPosition()==3) {
@@ -63,7 +63,7 @@ public class MainActivity2 extends AppCompatActivity implements OnMapReadyCallba
                     LatLng VILCHES = new LatLng(-35.573216, -71.167487);
                     mMap.addMarker(new MarkerOptions().position(VILCHES).title("VILCHES"));
                     mMap.moveCamera(CameraUpdateFactory.newLatLng(VILCHES));
-                    mMap.moveCamera(CameraUpdateFactory.zoomTo(14));
+                    mMap.moveCamera(CameraUpdateFactory.zoomTo(10));
 
                 }
             }
