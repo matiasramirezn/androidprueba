@@ -60,4 +60,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(I);
     }
 
+    public void verbase(View v){
+
+        Intent I = new Intent(getApplicationContext(),MainActivity3.class);
+        startActivity(I);
+
+    }
+
 }
